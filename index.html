@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ім'я Прізвище - Розробник</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Ім'я Прізвище</div>
+            <ul>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#skills">Навички</a></li>
+                <li><a href="#projects">Проекти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="parallax">
+        <div class="hero-content">
+            <h1>Привіт, я [Ім'я Прізвище]</h1>
+            <p>Веб-розробник з досвідом створення сучасних та ефективних веб-рішень.</p>
+            <a href="#projects" class="cta-button">Мої проекти</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Про мене</h2>
+            <img src="img/avatar.jpg" alt="Моє фото" class="avatar">
+            <p>Тут ви можете написати про себе. Ваш досвід, цінності, що вас мотивує, ваші цілі як розробника.
+            Опишіть ваш підхід до роботи, чим ви відрізняєтесь від інших розробників. Можете додати інформацію про хобі
+            та інтереси.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Навички</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="img/html5.svg" alt="HTML5">
+                    <h3>HTML5</h3>
+                    <p>Опис вашого рівня володіння HTML5.</p>
+                </div>
+                <div class="skill">
+                    <img src="img/css3.svg" alt="CSS3">
+                    <h3>CSS3</h3>
+                    <p>Опис вашого рівня володіння CSS3.</p>
+                </div>
+                <div class="skill">
+                    <img src="img/javascript.svg" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Опис вашого рівня володіння JavaScript.</p>
+                </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Проекти</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="img/project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Назва проекту 1</h3>
+                    <p>Короткий опис проекту 1. Технології, які використовувалися.</p>
+                    <a href="#" target="_blank">Дивитись проект</a>
+                </div>
+                 <div class="project">
+                    <img src="img/project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Назва проекту 2</h3>
+                    <p>Короткий опис проекту 2. Технології, які використовувалися.</p>
+                    <a href="#" target="_blank">Дивитись проект</a>
+                </div>
+                 <div class="project">
+                    <img src="img/project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Назва проекту 3</h3>
+                    <p>Короткий опис проекту 3. Технології, які використовувалися.</p>
+                    <a href="#" target="_blank">Дивитись проект</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться зі мною для обговорення ваших проектів та ідей.</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Ваше ім'я" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Повідомлення" rows="5" required></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Ім'я Прізвище. Всі права захищені.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/parallax.js"></script>
+</body>
+</html>
